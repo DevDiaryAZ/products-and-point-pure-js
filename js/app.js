@@ -6,14 +6,13 @@ let popups = document.querySelectorAll('.popup'); // Кнопка для скр�
 
 // open popup function
 function openPopup(e) {
-  let target = e.target;
-  e.target.preventDefault();
+  e.preventDefault();
   popups.forEach((popup) => {
-    if (popup.id === target.getAttribute('data-id')) {
+    if (popup.id === e.target.getAttribute('data-id')) {
       popup.classList.add('active');
     }
   });
-  e.preventDefault();
+
 }
 
 // close popup function
@@ -401,6 +400,11 @@ formFields.forEach((field) => {
         break;
     }
   });
+  field.addEventListener('keypress', (e) => {
+    if (e.keyCode == 13) {
+      e.preventDefault();
+  }
+  });
   field.addEventListener('focus', () => {
     field.parentNode.classList.add('focus');
   });
@@ -452,11 +456,6 @@ formFields.forEach((field) => {
 
 function deleteError(element) {
   element.classList.remove('show-error');
-}
-
-function scrollToJustAbove(element, margin = 20) {
-  let dims = element.getBoundingClientRect();
-  window.scrollTo(window.scrollX, dims.top - margin);
 }
 
 let voidValidation = false;
