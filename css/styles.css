@@ -1773,23 +1773,23 @@ body {
     }
 
     .navbar-mobile__icon_house {
-        background-image: url("/img/house_icon.svg");
+        background-image:  url(../img/house_icon.svg);
     }
 
     .navbar-mobile__icon_catalog {
-        background-image: url("/img/catalog_icon.svg");
+        background-image:  url(../img/catalog_icon.svg);
     }
 
     .navbar-mobile__icon_basket.active {
-        background-image: url("/img/basket_active_icon.svg");
+        background-image:  url(../img/basket_active_icon.svg);
     }
 
     .navbar-mobile__icon_favorites {
-        background-image: url("/img/favorites_icon.svg");
+        background-image:  url(../img/favorites_icon.svg);
     }
 
     .navbar-mobile__icon_profile {
-        background-image: url("/img/profile_icon.svg");
+        background-image:  url(../img/profile_icon.svg);
     }
 }
 
