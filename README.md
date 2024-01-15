@@ -2,7 +2,7 @@
 
 🛒 Предусмотренна функциональная корзина, где вы можете добавлять и удалять товары, просматривать общую стоимость заказа, а также оформлять его.
 
-Также продумана адаптивность страницы, для использоваия на планшетах и смартфонах.
+Также продумана адаптивность страницы для использования на планшетах и смартфонах.
 
 🌟'Products and Point' https://devdiaryaz.github.io/products-and-point-pure-js/ is a clone of Wildberries built with pure JS. It is a web project designed to resemble the Wildberries online store. You can browse products, add them to your cart, place orders, and much more – all powered by the popular programming language, JavaScript!
 
